@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Datasets (download manually; see README)
+backend/data/raw/*
+backend/data/processed/*
+!backend/data/raw/.gitkeep
+!backend/data/processed/.gitkeep
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/

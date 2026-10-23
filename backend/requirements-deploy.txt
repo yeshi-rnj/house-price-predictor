@@ -1,0 +1,4 @@
+# Production dependencies. Install together with the pins saved by train.py:
+#   pip install -r requirements-deploy.txt -r models/model-requirements.txt
+-r requirements.txt
+gunicorn>=22.0
